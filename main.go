@@ -10,10 +10,11 @@ import (
 func main() {
 
 	//hf := []string{"my header from slice", "my footer from slice"}
-	hf1 := make(map[string]string)
+	hf1 := map[string]string{
 
-	hf1["footer"] = "footer from map"
-	hf1["header"] = "header from map"
+		"footer": "footer from map!",
+		"header": "header from map!",
+	}
 
 	t, err := template.ParseFiles("tmpl1.html")
 	fmt.Printf("Parsed file %v with error = %v.\n", t.Name(), err)
