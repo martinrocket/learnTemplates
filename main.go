@@ -5,14 +5,20 @@ import (
 	"fmt"
 	"html/template"
 	"os"
+	"time"
 )
 
 func main() {
+	ti := time.Now()
+
+	//ti.Format("Mon Jan 01-02-2006 15:04 PM")
+
+	myTimeStr := "footer - " + ti.Format("Mon Jan 02 2006 15:04 PM") + " - footer"
 
 	//hf := []string{"my header from slice", "my footer from slice"}
 	hf1 := map[string]string{
 
-		"footer": "footer from map!",
+		"footer": myTimeStr,
 		"header": "header from map!",
 	}
 

@@ -3,8 +3,35 @@
  *
  */
 
-    body {margin: 0px; background-color: darkgray}
-    h1 {margin: 0px;  padding: 10px; background-color:darkblue;  font-family: Verdana; color: whitesmoke}
-    p {font-family: Verdana; font-size: medium; color: black}
-    li {font-family: Verdana; font-size: medium; color: black}
-    footer {margin: 0px; padding: 10px; background-color: whitesmoke; font-family: Verdana; color: darkgray}
+    body {
+        margin: 0px; 
+        background-color: darkgray
+    }
+
+    h1 {
+        margin: 0px;  
+        padding: 10px; 
+        background-color:darkblue;  
+        font-family: Verdana; 
+        color: whitesmoke
+    }
+
+    p {
+        font-family: Verdana; 
+        font-size: medium; 
+        color: black
+    }
+
+    li {
+        font-family: Verdana; 
+        font-size: medium; 
+        color: black
+    }
+
+    .myFooter {
+        margin: 0px; 
+        padding: 10px; 
+        background-color: whitesmoke; 
+        font-family: Verdana; 
+        color: grey;
+    }
