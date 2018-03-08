@@ -3,7 +3,7 @@
 
     <head>
             <LINK href="tmpl.css" rel="stylesheet" type="text/css">
-        <h1>{{ index . "header" }}</h1>
+        <h1>{{ .Header }}</h1>
     </head>
 
     <body><div style="padding: 40px;">
@@ -11,11 +11,14 @@
            <li>my body 1</li>
            <li>my body 2</li>
            <li>my body 3</li>
+           <div style="padding: 100px">
+                <div class="btn">{{ .Button }}</div>
+            </div>
           
     
     </body></div>
 
     <footer class="myFooter">
-        {{ index . "footer" }}
+        {{ .Footer}}
     </footer>
 </html>
