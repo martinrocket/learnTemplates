@@ -26,6 +26,7 @@ func main() {
 	//hf := []string{"my header from slice", "my footer from slice"}
 	// hf1 := map[string]string{
 
+
 	// 	"footer": myTimeStr,
 	// 	"header": "header from map!",
 	// }
